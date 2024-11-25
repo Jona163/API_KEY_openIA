@@ -12,3 +12,6 @@ class Zone(enum.Enum):
     kITCHEN = "kitchen"
     OFFICE = "office"
     
+class AssistanFnc(llm.FunctionContext):
+   def __init__(self)->None:
+      super().__init__()
