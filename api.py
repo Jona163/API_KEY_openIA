@@ -5,3 +5,10 @@ import logging
 
 logger = logging.getLogger("temperature-control")
 logger.setLevel(logging.INFO)
+
+class Zone(enum.Enum):
+    LIVING_ROOM="living-room"
+    BEDROOM = "bedroom"
+    kITCHEN = "kitchen"
+    OFFICE = "office"
+    
