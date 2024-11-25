@@ -15,6 +15,7 @@ ASSISTANT_NAME = "JARVIS"
 # Configurar el motor de texto a voz
 engine = pyttsx3.init()
 
+#convertir texto a voz con pyttsx3
 def speak_text(text):
     """Convierte texto a voz usando pyttsx3."""
     engine.say(text)
